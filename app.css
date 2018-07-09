@@ -1,0 +1,375 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.barra{
+  background: #171e27;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo{
+  left: 90px;
+  position: absolute;
+  top: 15px;
+}
+
+.search{
+  background: #232c3b;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  height: 35px;
+  padding-left: 15px;
+  position: absolute;
+  right: 260px;
+  top: 18px;
+  width: 260px;
+}
+
+.search-icon{
+  height: 20px;
+  position: absolute;
+  top: 25px;
+  right: 270px;
+  width: 20px;
+}
+
+.ltcl{
+  height: 35px;
+  position: absolute;
+  top: 21px;
+  left: 270px;;
+  width: 35px;
+}
+
+.hamb{
+  height: 55px;
+  position: absolute;
+  right: 20px;
+  width: 55px;
+}
+
+.probut{
+  background-color: #309360;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  height: 35px;
+  position: absolute;
+  right: 175px;
+  transition-duration: 0.4s;
+  top: 18px;
+  width: 70px;
+}
+
+.probut:hover{
+  background-color: #27a663;
+}
+
+.signin{
+  color: #caccce;
+  position: absolute;
+  right: 110px;
+  text-decoration: none;
+  top: 27px;
+  transition-duration: 0.4s;
+}
+
+.signin:hover{
+  color: white;
+}
+
+.learntop{
+  color: #caccce;
+  position: absolute;
+  left: 305px;
+  text-decoration: none;
+  top: 27px;
+  transition-duration: 0.4s; 
+}
+
+.learntop:hover{
+  color: white;
+}
+
+.start{
+  background: #1f2735;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  margin: 0;
+  width: 100%;
+}
+
+.textostart{
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  position: absolute;
+  top: 200;
+  width: 700;
+}
+
+.h2{
+  font-style: normal;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0px;
+}
+
+.h3{
+  color: #b0b6b9;
+  font-style: normal;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.imgstart{
+  height: 500;
+  position: absolute;
+  right: 75;
+  transition-duration: 0.2s;
+  top: 135;
+  width: 500;
+}
+
+.imgstart:hover{
+  height: 515;
+  right: 70;
+  top: 125;
+  width: 520;
+}
+
+.button{
+  background-color: #00409d;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  height: 50;
+  margin-top: 50px;
+  transition-duration: 0.4s;
+  width: 240;
+}
+
+.button:hover{
+  background-color: #0032a3;
+  height: 60;
+  font-size: 15px;
+  margin-top: 45px;
+  margin-left: -5;
+  width: 250;
+}
+
+.whatis{
+  background: #f4f5f9;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  margin: 0;
+  width: 100%;
+}
+
+.logos1{
+  margin: 80px -20px 20px 60px;
+}
+
+.logos2{
+  margin: 80px 0px 20px 0px;
+}
+
+.reactdiv{
+  background: white;
+  color: black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 20px;
+  padding-left: 80px;
+  padding-top: 50px;
+  width: 200px;
+}
+
+.logolang{
+  margin-bottom: 20px;
+  height: 50;
+  width: 50;
+}
+
+.jsdiv{
+  background: white;
+  color: black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 20px;
+  padding-left: 80px;
+  padding-top: 50px;
+  width: 200px;
+}
+
+.rnativediv{
+  background: white;
+  color: black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 20px;
+  padding-left: 80px;
+  padding-top: 50px;
+  width: 200px;
+}
+
+.nodediv{
+  background: white;
+  color: black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 20px;
+  padding-left: 80px;
+  padding-top: 50px;
+  width: 200px;
+}
+
+.reduxdiv{
+  background: white;
+  color: black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 20px;
+  padding-left: 80px;
+  padding-top: 50px;
+  width: 200px;
+}
+
+.vuediv{
+  background: white;
+  color: black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 20px;
+  padding-left: 80px;
+  padding-top: 50px;
+  width: 200px;
+}
+
+.whatext{
+  box-sizing: border-box;
+  padding: 80px;
+}
+
+.titwhat{
+  margin: 250px 130px 20px 130px;
+  font-size: 36px;
+}
+
+.par{
+  padding: 10px 200px 10px 130px;
+  font-size: 18px;
+}
+
+.tweet{
+  background: #f4f5f9;
+  box-sizing: border-box;
+  height: 400px;
+  padding: 100px;
+  width: 100%;
+}
+
+.twt{
+  background: white;
+  box-sizing: border-box;
+  height: 250px;
+  padding: 0 50% 0 0; 
+  text-align: center;
+  width: 99%;
+}
+
+.quote{
+  margin: 10px 105%;
+}
+
+.tw{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 10px 0 10px 60%; 
+  width: 600px;
+}
+
+.shaunphoto{
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  margin: 10px 107%;
+}
+
+.shaun{
+  padding: 0px 0 0px 90%;
+  width: 210px;
+}
+
+.today{
+  background: #f4f5f9;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 30px 100px;
+  width: 100%;
+}
+
+.titwhat.tod{
+  margin: 10px;
+}
+
+.par.a{
+  padding: 10px 550px 10px 10px;
+}
+
+.button.free{
+  background-color: #409b6b;
+}
+
+.button.free:hover{
+  background-color: #33a167;
+}
+
+.coins{
+  height: 350px;
+  position: absolute;
+  right: 50;
+  top:2020;
+  width: 600px;
+}
+
+.footer{
+  background: #171e27;
+  color: white;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 100px;
+  width: 100%;
+}
